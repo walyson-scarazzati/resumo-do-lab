@@ -33,3 +33,27 @@ az vm create \
   --admin-username azureuser \
   --authentication-type password \
   --admin-password MinhaSenhaForte123!  
+
+  # Criar Banco de dados 
+2. Criar um novo Banco de Dados SQL
+No menu esquerdo, clique em "Criar um recurso".
+Selecione "Bancos de Dados" > "Banco de Dados SQL".
+Clique em "Criar".
+
+3. Configurar o banco de dados
+Assinatura: Escolha sua assinatura do Azure.
+Grupo de recursos: Crie um novo grupo de recursos ou escolha um existente.
+Nome do Banco de Dados: Defina um nome para o banco de dados.
+Servidor:
+Selecione um servidor existente ou crie um novo.
+Para um novo servidor, defina um nome, região, usuário e senha.
+Camada de Preço: Escolha entre DTU-based ou vCore-based, dependendo da necessidade.
+
+4. Configurar rede e segurança
+Vá para a guia "Rede" e defina o acesso:
+Permitir acesso da internet pública ou configurar regras específicas de firewall.
+Configure "Autenticação" (SQL ou Azure AD).
+
+5. Revisar e Criar
+Clique em "Revisar e Criar".
+Aguarde a validação e clique em "Criar".
